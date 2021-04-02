@@ -1,10 +1,10 @@
 DESCRIPTION
 
-This bot is designed to buy bitcoin every time Elon musk tweets about bitcoin with the following parameters:
+This bot is designed to buy ethereum every time Elon musk tweets about ethereum with the following parameters:
 
-The bot will open a buy position on bitcoin every time Elon mentions bitcoin in his tweet
+The bot will open a buy position on ethereum every time Elon mentions ethereum in his tweet
 Take profit is set to 10% and stop loss to 5%
-The bitcoin bot will not place another trade if there is already an active trade (can be adjusted) 
+The ethereum bot will not place another trade if there is already an active trade (can be adjusted) 
 
 The bot uses the Tweepy API and a Twitter developer account that you will need access to, as well as a MetaTrader 5 account.
 
