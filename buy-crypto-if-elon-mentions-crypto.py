@@ -51,8 +51,8 @@ else:
     equity = float(account_info[10])
 
 #crypto sign and keywords
-CRYPTO='BTCUSD'
-keywords =['Bitcoin', 'bitcoin', 'BITCOIN', 'btc', 'BTC']
+CRYPTO='ETHUSD'
+keywords =['Ethereum', 'ethereum', 'ETHEREUM', 'eth', 'ETH', 'NFT']
 
 
 #Get Technoking's latest tweet
@@ -93,9 +93,9 @@ def analyze_sentence():
     json_tweet = json.loads(raw_tweet)
     return json_tweet['pos']
 
-#buy bitcoin
+#buy cypto
 def trade():
-    """Check if Musk mentioned bitcoin with positive sentiment and open a buy position if so"""
+    """Check if Musk mentioned ethereum with positive sentiment and open a buy position if so"""
     what_musk_said = get_elons_tweet()
     tweet_sentiment = analyze_sentence()
 
